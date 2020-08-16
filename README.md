@@ -19,5 +19,21 @@
 ### 数据预处理
 - 数据预处理的主要内容包括数据清洗、数据集成、数据变换和数据归约:
 ![Image text](https://github.com/ZiqiuZhou/Hands-on-Data-Analysis-and-Mining-with-Python/blob/master/IMG/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.PNG)
+  - 数据清洗
+    - 缺失值(插补)：属性均值/中位数/固定值, 回归插值，拉格朗日插值(from scipy.interpolate import lagrange)
+    - 异常值:平均修正，视为缺失值，删除或者不处理
+  - 数据集成
+  - 数据变换: 
+    - 平方、开方、取对数
+    - 标准化: 对于基于距离的挖掘算法很重要
+      - min-max: (x - min) / max - min
+      - (x -μ) / σ
+    - 连续属性离散化: pd.cut()
+    - 特征构造：利用已有的属性集构造出新的属性
+  - 数据归约
+    - 特征归约：合并特征(PCA)，或删除相关性低的特征
+    - 数值归约：直方图分桶，聚类， 线性回归
+  - 预处理主要函数：isnull()/notnull(), scipy.interpolate(), sklearn.decomposition PCA()
+     
 ### 挖掘建模
 ### 模型评价
