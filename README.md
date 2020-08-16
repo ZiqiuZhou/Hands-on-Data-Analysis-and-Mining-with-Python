@@ -18,6 +18,6 @@
     - plot(), pie(), hist()直方图(分布或series.plot.density()), bar()柱状图, box()箱线图
 ### 数据预处理
 - 数据预处理的主要内容包括数据清洗、数据集成、数据变换和数据归约:
-
+![Image text](https://github.com/ZiqiuZhou/Hands-on-Data-Analysis-and-Mining-with-Python/blob/master/IMG/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.PNG)
 ### 挖掘建模
 ### 模型评价
