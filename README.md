@@ -20,7 +20,7 @@
 - 数据预处理的主要内容包括数据清洗、数据集成、数据变换和数据归约:
 ![Image text](https://github.com/ZiqiuZhou/Hands-on-Data-Analysis-and-Mining-with-Python/blob/master/IMG/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.PNG)
   - 数据清洗
-    - 缺失值(插补)：属性均值/中位数/固定值, 回归插值，拉格朗日插值(from scipy.interpolate import lagrange)
+    - 缺失值(插补)：属性均值/中位数/固定值(df.fillna(), df.replace()), 回归插值，拉格朗日插值(from scipy.interpolate import lagrange)或者删除(df.dropna())
     - 异常值:平均修正，视为缺失值，删除或者不处理
   - 数据集成
   - 数据变换: 
