@@ -35,13 +35,17 @@
     - 特征筛选：
       - 过滤式：移除低方差的特征；低相关系数特征(pearson和卡方检测)
       - 包裹式：从初始特征集合中不断的选择特征子集，训练学习器，根据学习器的性能来对子集进行评价，直到选择出最佳的子集
-      - 嵌入式：
+      - 嵌入式：嵌入式特征选择在学习器训练过程中自动地进行特征选择——L1和L2正则化或者树模型
   - 数据归约
     - 特征归约：合并特征(PCA)，或删除相关性低的特征
     - 数值归约：直方图分桶，聚类， 线性回归
   - 预处理主要函数：isnull()/notnull(), scipy.interpolate(), sklearn.decomposition PCA()
      
 ### 挖掘建模
+- 模型调参：
+  - 贪心算法 https://www.jianshu.com/p/ab89df9759c8 (https://www.jianshu.com/p/ab89df9759c8)
+  - 网格调参 https://blog.csdn.net/weixin_43172660/article/details/83032029
+  - 贝叶斯调参 https://blog.csdn.net/linxid/article/details/81189154
 
 
 ### 模型评价
