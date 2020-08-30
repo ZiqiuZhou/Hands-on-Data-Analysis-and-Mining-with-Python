@@ -42,9 +42,9 @@
   - 预处理主要函数：isnull()/notnull(), scipy.interpolate(), sklearn.decomposition PCA()
      
 ### 挖掘建模
-- 模型调参：
+- 模型调参(超参数)：
   - 贪心算法 https://www.jianshu.com/p/ab89df9759c8 (https://www.jianshu.com/p/ab89df9759c8)
-  - 网格调参 https://blog.csdn.net/weixin_43172660/article/details/83032029
+  - 网格调参GridSearchCV https://blog.csdn.net/weixin_43172660/article/details/83032029
   - 贝叶斯调参 https://blog.csdn.net/linxid/article/details/81189154
 
 
