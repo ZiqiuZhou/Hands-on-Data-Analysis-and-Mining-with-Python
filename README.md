@@ -48,4 +48,11 @@
   - 贝叶斯调参 https://blog.csdn.net/linxid/article/details/81189154
 
 
-### 模型评价
+### 模型融合
+- 简单加权融合：
+  - 回归（分类概率）：算术平均融合（Arithmetic mean），几何平均融合（Geometric mean）
+  - 分类：投票（Voting)
+  - 综合：排序融合(Rank averaging)，log融合
+- Bagging
+- Boosting
+- Stacking
