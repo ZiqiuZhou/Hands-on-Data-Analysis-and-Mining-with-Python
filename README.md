@@ -53,6 +53,7 @@
   - 回归（分类概率）：算术平均融合（Arithmetic mean），几何平均融合（Geometric mean）
   - 分类：投票（Voting)
   - 综合：排序融合(Rank averaging)，log融合
+ ![Image text](https://github.com/ZiqiuZhou/Hands-on-Data-Analysis-and-Mining-with-Python/blob/master/IMG/v2-5b28f8daae1d292a4650dbf2694caf71_r.jpg)
 - Bagging
 - Boosting
 - Stacking
