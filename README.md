@@ -15,6 +15,8 @@
     - 统计量分析(定量数据): df/series.sum(), cumsum(), mean(), var(), corr(), describe()
     - 周期性分析：随着时间的变化而呈现出某种周期变化趋势
     - 相关性分析
+      - 特征与特征之间的关系
+      - 特征与变量之间的关系
   - 统计绘图函数
     - plot(), pie(), hist()直方图(分布或series.plot.density()), bar()柱状图, box()箱线图
 ### 数据预处理
