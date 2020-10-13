@@ -24,14 +24,15 @@
 ![Image text](https://github.com/ZiqiuZhou/Hands-on-Data-Analysis-and-Mining-with-Python/blob/master/IMG/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.PNG)
   - 数据清洗
     - 缺失值(插补)：属性均值/中位数/固定值(df.fillna(), df.replace()), 回归插值，拉格朗日插值(from scipy.interpolate import lagrange)或者删除(df.dropna())
-    - 异常值:平均修正，视为缺失值，删除或者不处理
+    - 异常值:平均修正，视为缺失值，删除或者不处理(test集不能删), 有时异常值代表了一些含义，不能随便删, 二分类问题中如果异常值和正常值的分布与label的分类大致相同则不能删
   - 数据集成
   - 数据变换: 
     - 平方、开方、取对数
     - 标准化: 对于基于距离的挖掘算法很重要
       - min-max: (x - min) / max - min
       - (x -μ) / σ
-    - 对类别模型做One-hot Encoder: pd.get_dummies() (树模型无须此步骤，反而需要对数值类别分桶)
+    - 对类别模型
+      - 对纯分类特征，做One-hot Encoder: pd.get_dummies() (树模型无须此步骤，反而需要对数值类别分桶)
     - 连续属性离散化: pd.cut()
     - 特征构造：利用已有的属性集构造出新的属性
     - 特征筛选：
